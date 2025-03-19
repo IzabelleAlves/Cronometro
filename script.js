@@ -37,6 +37,6 @@ function pausarTempo() {
 function reiniciarTempo() {
   reiniciar.classList.toggle("hide");
   iniciar.innerText = "Iniciar";
-  tempo.innerText = 0;
+  tempo.innerText = "00:00:00";
   i = 0;
 }
