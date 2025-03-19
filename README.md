@@ -6,8 +6,8 @@ Este é um projeto simples de cronômetro com funcionalidades de iniciar, pausar
 
 | Tipo                     | Imagem                                                      |
 | ------------------------ | ----------------------------------------------------------- |
-| **Demonstração Desktop** | <img src="assets/img/demonstração-desktop.png" width="300"> |
-| **Demonstração Mobile**  | <img src="assets/img/demonstração-mobile.png" width="300">  |
+| **Demonstração Desktop** | <img src="assets/img/demonstracao-desktop.png" width="300"> |
+| **Demonstração Mobile**  | <img src="assets/img/demonstracao-mobile.png" width="300">  |
 | **Funcionando**          | <img src="assets/img/video.gif" width="300">                |
 
 ## Funcionalidades
