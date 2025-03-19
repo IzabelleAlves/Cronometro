@@ -2,6 +2,13 @@
 
 Este é um projeto simples de cronômetro com funcionalidades de iniciar, pausar e reiniciar.
 
+- Demonstração Desktop
+  ![](assets/img/demosntracao-desktop.png)
+- Demonstração Mobile
+  ![](assets/img/demosntracao-mobile.png)
+- Funcionando
+  ![](assets/img/video.gif)
+
 ## Funcionalidades
 
 - **Iniciar**: Ao clicar em "Iniciar", a contagem do cronômetro começa.
