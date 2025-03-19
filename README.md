@@ -2,12 +2,13 @@
 
 Este é um projeto simples de cronômetro com funcionalidades de iniciar, pausar e reiniciar.
 
-- Demonstração Desktop
-  ![](assets/img/demosntracao-desktop.png)
-- Demonstração Mobile
-  ![](assets/img/demosntracao-mobile.png)
-- Funcionando
-  ![](assets/img/video.gif)
+### Demonstrações
+
+| Tipo                     | Imagem                                                      |
+| ------------------------ | ----------------------------------------------------------- |
+| **Demonstração Desktop** | <img src="assets/img/demonstração-desktop.png" width="300"> |
+| **Demonstração Mobile**  | <img src="assets/img/demonstração-mobile.png" width="300">  |
+| **Funcionando**          | <img src="assets/img/video.gif" width="300">                |
 
 ## Funcionalidades
 
