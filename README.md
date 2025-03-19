@@ -28,13 +28,13 @@ Este é um projeto simples de cronômetro com funcionalidades de iniciar, pausar
 1. Clone este repositório:
 
 ```bash
-git clone https://github.com/seuusuario/cronometro-responsivo.git
+git clone https://github.com/IzabelleAlves/Cronometro.git
 ```
 
 2. Navegue até o diretório do projeto:
 
 ```bash
-cd cronometro-responsivo
+cd cronometro
 ```
 
 3. Abra o arquivo `index.html` no seu navegador para visualizar o cronômetro em funcionamento.
