@@ -14,10 +14,6 @@ body {
   align-items: center;
 }
 
-#titulo {
-  color: #7fe7d9;
-}
-
 .botoes {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -55,9 +51,6 @@ body {
 
 .tempo {
   font-size: 250px;
-  grid-column: 1 / -1;
-  justify-content: center;
-  display: flex;
   color: #7fe7d9;
 }
 
@@ -72,25 +65,4 @@ body {
 
 .hide {
   display: none;
-}
-
-@media screen and (max-width: 1200px) {
-  .tempo {
-    font-size: 120px;
-  }
-}
-
-@media screen and (max-width: 800px) {
-  .tempo {
-    font-size: 80px;
-  }
-
-  .botoes {
-    gap: 10px;
-  }
-
-  .btn {
-    padding: 10px 15px;
-    font-size: 16px;
-  }
 }

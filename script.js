@@ -40,3 +40,19 @@ function reiniciarTempo() {
   tempo.innerText = "00:00:00";
   i = 0;
 }
+
+function ajustarTamanhoTempo() {
+  const larguraTela = window.innerWidth;
+
+  if (larguraTela <= 800) {
+    tempo.style.fontSize = "80px";
+  } else if (larguraTela <= 1200) {
+    tempo.style.fontSize = "120px";
+  } else {
+    tempo.style.fontSize = "250px";
+  }
+}
+
+window.addEventListener("resize", ajustarTamanhoTempo);
+
+ajustarTamanhoTempo();
