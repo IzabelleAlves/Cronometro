@@ -20,7 +20,7 @@ function iniciarTempo() {
       .toString()
       .padStart(2, "0")}:${segundos.toString().padStart(2, "0")}`;
     i++;
-  }, 100);
+  }, 1000);
   iniciar.setAttribute("disabled", "");
   pausar.removeAttribute("disabled", "");
   reiniciar.classList.add("hide");
