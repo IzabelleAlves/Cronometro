@@ -8,6 +8,33 @@ body {
   font-family: "Arial", sans-serif;
 }
 
+a {
+  text-decoration: none;
+  color: #808080;
+}
+
+.dev {
+  color: #808080;
+  font-size: 14px;
+}
+
+.links {
+  display: flex;
+  flex-direction: column;
+}
+
+.github-linkedin {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+.links-perfil {
+  color: #7fe7d9;
+  font-size: 24px;
+}
+
 .tema {
   position: fixed;
   top: 8%;
@@ -106,4 +133,9 @@ body {
 
 .light-on-reiniciar {
   background-color: #d8392d;
+}
+
+.link-github-ligth-on,
+.link-linkedin-ligth-on {
+  color: #1d1f20;
 }

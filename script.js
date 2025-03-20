@@ -5,6 +5,8 @@ const tempo = document.querySelector(".tempo");
 const iniciar = document.querySelector(".iniciar");
 const pausar = document.querySelector(".pausar");
 const reiniciar = document.querySelector(".reiniciar");
+const linkGithub = document.querySelector(".link-github");
+const linkLinkedin = document.querySelector(".link-linkedin");
 const body = document.body;
 
 tema.addEventListener("click", mudarTema);
@@ -57,9 +59,10 @@ function mudarTema() {
   iniciar.classList.toggle("light-on-iniciar");
   pausar.classList.toggle("light-on-pausar");
   reiniciar.classList.toggle("light-on-reiniciar");
+  linkGithub.classList.toggle("link-github-ligth-on");
+  linkLinkedin.classList.toggle("link-linkedin-ligth-on");
 }
 
-// Função para ajustar o tamanho do texto do tempo conforme a largura da tela
 function ajustarTamanhoTempo() {
   const larguraTela = window.innerWidth;
 
@@ -72,8 +75,6 @@ function ajustarTamanhoTempo() {
   }
 }
 
-// Evento de redimensionamento da tela
 window.addEventListener("resize", ajustarTamanhoTempo);
 
-// Chamada inicial para ajustar o tamanho do tempo
 ajustarTamanhoTempo();
