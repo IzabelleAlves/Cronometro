@@ -8,6 +8,28 @@ body {
   font-family: "Arial", sans-serif;
 }
 
+.tema {
+  position: fixed;
+  top: 8%;
+  right: 5%;
+  font-size: xx-large;
+  cursor: pointer;
+  color: #7fe7d9;
+  z-index: 1000;
+}
+
+.btn-dark-on {
+  display: none;
+}
+
+.btn-light-on {
+  display: none;
+}
+
+.light-on-body {
+  background-color: white;
+}
+
 .options {
   display: flex;
   flex-direction: column;
@@ -50,7 +72,6 @@ body {
 }
 
 .tempo {
-  font-size: 250px;
   color: #7fe7d9;
 }
 
@@ -65,4 +86,24 @@ body {
 
 .hide {
   display: none;
+}
+
+.light-on-time {
+  color: #1d1f20;
+}
+
+.ligth-on-btn-tema {
+  color: #1d1f20;
+}
+
+.light-on-iniciar {
+  background-color: #457a47;
+}
+
+.light-on-pausar {
+  background-color: #c28222;
+}
+
+.light-on-reiniciar {
+  background-color: #d8392d;
 }

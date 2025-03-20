@@ -1,11 +1,16 @@
+const tema = document.querySelector(".tema");
+const temalight = document.querySelector(".tema-btn-light");
+const temaDark = document.querySelector(".tema-btn-dark");
+const tempo = document.querySelector(".tempo");
 const iniciar = document.querySelector(".iniciar");
 const pausar = document.querySelector(".pausar");
-const tempo = document.querySelector(".tempo");
 const reiniciar = document.querySelector(".reiniciar");
+const body = document.body;
 
+tema.addEventListener("click", mudarTema);
 iniciar.addEventListener("click", iniciarTempo);
 pausar.addEventListener("click", pausarTempo);
-reiniciar.addEventListener("click", reiniciarTempo); //dbl -> dar dois cliques pra ocorrer
+reiniciar.addEventListener("click", reiniciarTempo);
 
 let i = 0;
 let timer;
@@ -21,6 +26,7 @@ function iniciarTempo() {
       .padStart(2, "0")}:${segundos.toString().padStart(2, "0")}`;
     i++;
   }, 1000);
+
   iniciar.setAttribute("disabled", "");
   pausar.removeAttribute("disabled", "");
   reiniciar.classList.add("hide");
@@ -41,6 +47,19 @@ function reiniciarTempo() {
   i = 0;
 }
 
+function mudarTema() {
+  body.classList.toggle("light-on-body");
+
+  temaDark.classList.toggle("btn-light-on");
+  temalight.classList.toggle("btn-dark-on");
+  tempo.classList.toggle("light-on-time");
+  tema.classList.toggle("ligth-on-btn-tema");
+  iniciar.classList.toggle("light-on-iniciar");
+  pausar.classList.toggle("light-on-pausar");
+  reiniciar.classList.toggle("light-on-reiniciar");
+}
+
+// Função para ajustar o tamanho do texto do tempo conforme a largura da tela
 function ajustarTamanhoTempo() {
   const larguraTela = window.innerWidth;
 
@@ -49,10 +68,12 @@ function ajustarTamanhoTempo() {
   } else if (larguraTela <= 1200) {
     tempo.style.fontSize = "120px";
   } else {
-    tempo.style.fontSize = "250px";
+    tempo.style.fontSize = "190px";
   }
 }
 
+// Evento de redimensionamento da tela
 window.addEventListener("resize", ajustarTamanhoTempo);
 
+// Chamada inicial para ajustar o tamanho do tempo
 ajustarTamanhoTempo();
